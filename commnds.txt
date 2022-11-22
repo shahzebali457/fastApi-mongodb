@@ -1,0 +1,9 @@
+py -3 -m venv venv            # to make new env/virtual env with already existing packages 
+
+pip install fastapi[all]   # install all packages used wuth FastApi
+
+uvicorn app.main:app --host localhost --port 8000 --reload   # to test FastApi server with auto change detection
+
+# PyMongo – a MongoDB driver created by the MongoDB team for synchronous Python applications and motor for asynchronous applications.
+
+pip install pymango
